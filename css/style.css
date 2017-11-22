@@ -266,6 +266,7 @@ body{
     text-align: center;
 } 
 .date{
+	position:relative;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -288,27 +289,7 @@ body{
 	left: 320px;
 }
 /*ИКОНКА КАЛЕНДАРЯ*/
-span.input-icon-calendar{
-  background: url(../img/calendar.svg) no-repeat center;
-  content: " ";
-  width: 22px;
-  height: 100%;
-  display: block;
-  position: absolute;
-  right: 62px;
-  bottom: 12px;
-} 
-span.input-icon-calendar{
-	background: url(../img/calendar.svg) no-repeat center;
-  content: " ";
-  width: 22px;
-  height: 100%;
-  display: block;
-  position: absolute;
-  right: 62px;
-  bottom: 12px;
 
-}
 span.input-icon-calendar{
 	background: url(../img/calendar.svg) no-repeat center;
 	content: " ";
@@ -317,7 +298,7 @@ span.input-icon-calendar{
   display: block;
   position: absolute;
   top: 7px;
-  right: 11px;
+  right: 25px;
 }
 .booking-form label span{
 	display: inline-block;
