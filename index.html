@@ -11,18 +11,13 @@
   <main class="wrapper"> 
 <header> 
   <nav class="navigation">
+    <img src="img/logo.png" class="logo" width="138" height="70" alt="Логотип">
     <ul>
       <li> 
         <a href="#">информация</a>
       </li>
       <li>
         <a href="#">фото и видео</a>
-      </li>
-      <li>
-        <a> 
-          <img src="img/logo.png" class="logo" width="138" height="70" alt="Логотип">
-        </a>
-      </li>
         <li>
           <a href="#">карта штата</a>
         </li>
@@ -102,16 +97,18 @@
   <div class="booking-form-content">
     <form action="https://echo.htmlacademy.ru" method="post">
       <div class="form-group group-inter">
-        <p class="date">дата заезда:</p>
-        <label>
-        <input type="text" name="datefrom" value="" class="input-group">  
-        </label>
+        <p class="date">
+        <label>дата заезда:</label>
+        <input type="text" name="datefrom" value="" class="input-group" placeholder="21.11.2017"> 
+        <span class="input-icon-calendar"></span> 
+        </p>
       </div>
       <div class="form-group group-exit">
-        <p class="date">дата выезда:</p>
-          <label>
-            <input type="text" name="dateexit" value=""  class="input-group">
-          </label>
+        <p class="date">
+          <label>дата выезда:</label>
+            <input type="text" name="dateexit" value=""  class="input-group" placeholder="21.11.2017">
+            <span class="input-icon-calendar"></span>
+        </p>  
       </div>
       <div class="group-of-people">
         <label class="booking-form-search1">взрослые:</label>
@@ -127,7 +124,7 @@
           <button type="button">+</button>
         </div>
       </div>
-      <button type="submit" class="hotel-btn">найти</button>
+      <button type="button" class="hotel-btn">найти</button>
   </div> 
     </form>    
       </div>
