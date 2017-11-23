@@ -38,10 +38,10 @@ body{
 }
 .navigation li{
 	line-height:57px;
-	margin:0 72px;
+	margin:0 70px;
 }
 .navigation li:nth-child(3){
-  margin-left: 306px;
+  margin-left: 324px;
 }
 .navigation li:nth-child(3),
 .navigation li:nth-child(4){
