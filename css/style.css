@@ -21,7 +21,7 @@ body{
 	box-shadow: 10px 0 10px 0 rgba(181, 173, 173, 0.5),-10px 0 10px 0 rgba(181, 173, 173, 0.5); 
 	   
 }
-.navigation {
+.navigation{
 	position:relative;
 }
 .navigation a{
@@ -56,6 +56,7 @@ body{
 	height: 507px;
 	position: relative;
 	background: url(../img/background.jpg);
+	background-color: #ffffff;
 }
 .photo{
 	position:absolute;
@@ -256,14 +257,14 @@ body{
 	padding:45px;
 }
 .booking-form-header{
-    width: 569px;
-    height: 86px;
-    background: #766357;
-    border: none;
-    color: #ffffff;
-    font-size: 21px;
-    text-transform: uppercase;
-    text-align: center;
+  width: 569px;
+  height: 86px;
+  background: #766357;
+  border: none;
+  color: #ffffff;
+  font-size: 21px;
+  text-transform: uppercase;
+  text-align: center;
 } 
 .date{
 	position:relative;
@@ -290,7 +291,7 @@ body{
 }
 /*ИКОНКА КАЛЕНДАРЯ*/
 
-span.input-icon-calendar{
+.input-icon-calendar{
 	background: url(../img/calendar.svg) no-repeat center;
 	content: " ";
 	width: 20px;
@@ -311,8 +312,7 @@ span.input-icon-calendar{
 	margin-bottom: 30px;
 }
 .input-group{
-	position: relative;
-   
+	position: relative;  
 }
 input.input-group{
 	width: 345px;
@@ -323,23 +323,21 @@ input.input-group{
   padding-left: 7px;
   padding-right: 7px;
   cursor: pointer;
-    
-
 }
 input.number-persons{
 	width: 110px;
-    height: 35px;
-    border: none;
-    background: #f2f2f2;
-    margin-left: 10px;
-    cursor: pointer;
-    text-align: center;
+  height: 35px;
+  border: none;
+  background: #f2f2f2;
+  margin-left: 10px;
+  cursor: pointer;
+  text-align: center;
 }
 .group-of-people{
 	display:flex;
 }
 .hotel-grown input,
-.hotel-children input {
+.hotel-children input{
   width: 38px;
   height: 38px;
   border: none;
@@ -362,7 +360,7 @@ label.booking-form-search1{
   font-weight: bold;
   text-transform: uppercase;
 }
-label.booking-form-search2 {
+label.booking-form-search2{
   margin-top: 10px;
   margin-left: 86px;
   margin-right: 15px;
@@ -371,14 +369,14 @@ label.booking-form-search2 {
   text-transform: uppercase;
 }
 
-.hotel-children {
+.hotel-children{
   font-size: 0;
 }
 .hotel-grown{
   font-size: 0;	
 }
 .hotel-grown button,
-.hotel-children button {
+.hotel-children button{
   font-family: "PT Sans", sans-serif;
   width: 38px;
   font-size: 21px;
@@ -393,7 +391,7 @@ label.booking-form-search2 {
   display: inline-block;
   vertical-align: middle;
 }
-.hotel-btn {
+.hotel-btn{
   width: 463px;
   background-color: #81b3d2;
   border: none;
@@ -408,11 +406,11 @@ label.booking-form-search2 {
   cursor: pointer;
 }
 
-.hotel-btn:hover {
+.hotel-btn:hover{
   background-color: #669ec0;
 }
 
-.hotel-btn:active {
+.hotel-btn:active{
   background-color: #5496bd;
   color: rgba(255, 255, 255, 0.9);
 }
@@ -426,25 +424,25 @@ label.booking-form-search2 {
 	height:122px;
 	text-transform: uppercase;    
 }
-
 .footer-visit p{
 	font-size: 21px;
 	font-weight: bold;
 }
 .footer-visit{
 	width: 400px;
-    padding-top: 30px;
-}
-	
+  padding-top: 30px;
+}	
 .footer-social{
-	width: 400px;
-   
+	width: 400px;  
 }
 .footer-copyright{
 	width: 400px;
 }
 
 /*Страница отелей */
+a.selected{
+	color:#766357;
+}
 .colomn-one{
 	text-transform: uppercase;
 	width: 240px;
@@ -525,13 +523,13 @@ label.booking-form-search2 {
 	color: #ffffff;
 	text-transform: uppercase; 
 }
-.filter-range-title {
+.filter-range-title{
 	margin-bottom: 9px;
 	font-weight: 600;
 	font-size: 16px;
 	line-height: 21px;
 }
-.price-controls {
+.price-controls{
 	position: relative;
 	height: 36px;
 	margin-bottom: 20px;
@@ -540,7 +538,7 @@ label.booking-form-search2 {
 	border: 2px solid #ffffff;
 	border-radius: 2px;
 }
-.price-controls::after {
+.price-controls::after{
 	content: "";
 	position: absolute;
 	top: 50%;
@@ -550,7 +548,7 @@ label.booking-form-search2 {
 	background: #ffffff;
 	transform: translate(-50%, -50%);
 }
-.price-controls label {
+.price-controls label{
 	display: inline-block;
 	font-size: 14px;
 	line-height: 38px;
@@ -562,7 +560,7 @@ label.booking-form-search2 {
 	width: 90px;
 	padding-left: 65px;
 }
-.price-controls input {
+.price-controls input{
 	width: 50px;
 	margin: 0;
 	color: inherit;
@@ -574,6 +572,7 @@ label.booking-form-search2 {
 
 .selection-form{
 	background: url("../img/background1.jpg");
+	background-color: #6b92b9;
 	width:1200px;
 	height: 235px;
 	padding: 30px 70px;
@@ -584,21 +583,21 @@ label.booking-form-search2 {
 	color:#FFFFFF;
 }
 
-.range-controls {
+.range-controls{
 	position: relative;
 	height:20px;
 	margin-bottom:20px;
 }
-.range-controls .scale {
+.range-controls .scale{
 	height: 2px;
 	background: rgba(255, 255, 255, 0.3);
 }
-.range-controls .bar {
+.range-controls .bar{
 	width: 80%;
 	height: 2px;
 	background: #ffffff;
 }
-.range-toggle {
+.range-toggle{
 	position: absolute;
 	top: -9px;
 	width: 4px;
@@ -609,26 +608,23 @@ label.booking-form-search2 {
 	box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2);
 	cursor: pointer;
 }
-.range-toggle-min {
+.range-toggle-min{
 	left: 0;
 }
-
-.range-toggle-max {
+.range-toggle-max{
 	left: 80%;
 }
-.range-toggle:hover {
+.range-toggle:hover{
 	background: #1c4f80;
 }
-.btn-transparent {
+.btn-transparent{
 	display: block;
 	margin: 0 auto;
 	padding: 6px 35px;
-
 	font-size: 14px;
 	line-height: 20px;
 	color: #ffffff;
 	text-transform: uppercase;
-
 	background: transparent;
 	border: 2px solid #ffffff;
 	border-radius: 2px;
@@ -637,7 +633,7 @@ label.booking-form-search2 {
 	width: auto;
 	height: auto;
 }
-.btn-transparent:hover {
+.btn-transparent:hover{
 	color: #000000;
 	background: #ffffff;
 }
@@ -655,8 +651,7 @@ label.booking-form-search2 {
 	padding: 0;
 	font-size: 13px;
 	list-style: none;
-	margin-right: 35px;
-	
+	margin-right: 35px;	
 }
 .name-hotels{
 	width:1200px;
@@ -668,8 +663,6 @@ label.booking-form-search2 {
 	font-size: 23px;
 	margin:25px 25px 25px 70px;
 }
-
-
 .switch-up{
 	margin-top: 41px;
 	margin-right: 15px;    
@@ -691,8 +684,7 @@ label.booking-form-search2 {
 	padding-left: 160px;
 }
 .hotel-header{
-	display: flex;
-   
+	display: flex;   
 }
 .hotel-name{
 	font-weight: bold;
@@ -709,16 +701,16 @@ label.booking-form-search2 {
 	margin-top:10px;
 	display: flex;
 }
-.btn-read {
+.btn-read{
 	padding: 8px 16px;
 	font-weight: bold;
 	cursor:pointer;
 	font-size: 14px;
-    text-decoration: none;
-    background: #81b3d2;
-    color: #ffffff;
+  text-decoration: none;
+  background: #81b3d2;
+  color: #ffffff;
 }
-.btn-book {
+.btn-book{
 	margin-left: 10px;
 	padding: 9px 16px;
 	font-weight: bold;
@@ -728,8 +720,6 @@ label.booking-form-search2 {
 	text-decoration: none;
 	color:#ffffff;
 }
-
-
 /*цена*/
 .hotel-price{
 	font-size: 14px;
@@ -745,13 +735,13 @@ label.booking-form-search2 {
 }
 .hotel-rating{
 	margin-top: 33px;
-    padding-top: 5px;
-    padding-left: 8px;
-    padding-right: 4px;
-    padding-bottom: 5px;
-    width: 85px;
-    background: #f2f2f2;
-    font-size: 14px;
+  padding-top: 5px;
+  padding-left: 8px;
+  padding-right: 4px;
+  padding-bottom: 5px;
+  width: 85px;
+  background: #f2f2f2;
+  font-size: 14px;
 }
 /*звезды отеля*/
 .stars-four{
@@ -788,7 +778,6 @@ label.booking-form-search2 {
 	float: left;
 	margin-top: 50px;
 	margin-left: 8px;
-
 }
 .switch-down{
 	background: url("../img/icons_down_grey.svg");
@@ -857,7 +846,6 @@ button:active{
 	background:#5496BD; 
 	color:#88b6d1;
 }
-
 .btn img:hover{
    background-image:#87B7D4;
 }
@@ -878,8 +866,7 @@ button:active{
 }
 .btn-book:active{
 	background:#503e33;
-	color:#857871; 
-	
+	color:#857871; 	
 }
 .navigation a:hover{
 	color:#5496bd;
