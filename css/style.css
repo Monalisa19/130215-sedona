@@ -511,7 +511,6 @@ a.selected{
 	padding:18px;
 	margin-left: 6px;
 	margin-right: 2px;
-
 }
 .social-btn-you{
 	background: #81B3D2;
@@ -569,7 +568,6 @@ a.selected{
 	border: none;
 	outline: none;
 }
-
 .selection-form{
 	background: url("../img/background1.jpg");
 	background-color: #6b92b9;
@@ -582,7 +580,6 @@ a.selected{
 	display: flex;
 	color:#FFFFFF;
 }
-
 .range-controls{
 	position: relative;
 	height:20px;
