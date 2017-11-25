@@ -1,11 +1,5 @@
 body, html{margin:0; padding:0}
 
-.clearfix:after{
-	content: " ";
-	display: block;
-	clear: both;
-}
-
 body{
 	font-size:14px;
 	font-family:"PT Sans", "Arial", sans-serif;
@@ -32,6 +26,8 @@ body{
 }
 .navigation ul{
   display: flex;
+ -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
 	padding:0;
 	margin:0;
 	list-style:none;	
@@ -41,11 +37,11 @@ body{
 	margin:0 70px;
 }
 .navigation li:nth-child(3){
-  margin-left: 324px;
+  margin-left: 306px;
 }
 .navigation li:nth-child(3),
 .navigation li:nth-child(4){
-
+	
 }
 .logo{
 	position:absolute;
@@ -53,17 +49,15 @@ body{
 	z-index:10;
 }
 .background-block{
-	height: 507px;
+	padding-top: 74px;
+  height: 433px;
 	position: relative;
 	background: url(../img/background.jpg);
 	background-color: #ffffff;
 }
 .photo{
-	position:absolute;
-	left: 370px;
+	margin: 0 auto;
 	width: 458px;
-	height: 352px;
-	top: 74px;
 }
 .about{
 	width:500px;
@@ -81,6 +75,7 @@ body{
 .about p{
 	text-transform:uppercase;
 	font-size:14px;
+	margin-top:32px;
 }
 /*седона класс container*/
 .page-index{
@@ -91,6 +86,7 @@ body{
 }
 .sedona-information{
 	display: flex;
+	margin-top:19px;
 }
 .section-real-town{
 	text-align:center;
@@ -122,51 +118,49 @@ body{
 }
 .city-infrastructure{
 	display: flex;
-	width:1000px;
-	margin:0 auto;
+	width: 1066px;
+  margin: 0 auto;
 	background:#FFFFFF;
-	height:320px;    
+	height:330px;    
 }
 .city-infrastructure h3{
 	font-size: 21px;
 }
 .city-infrastructure p{
-	font-size: 13px;
+	font-size: 14px;
 	text-transform: uppercase;
 }
 .motel{
 	text-align:center;
-	width:250px;
-	margin-top:55px;
-	margin-bottom:60px;
+	width: 274px;
+  margin-top: 55px;
+  padding-right: 56px;
+	
 }
 .food{
-	width:266px;
-	text-align:center;
-	margin-top:60px;
-	padding-left: 123px;
-	padding-right: 125px;
-	margin-bottom:60px;    
+	width: 298px;
+  text-align: center;
+  margin-top: 60px;
+  padding-left: 66px;
+  padding-right: 62px;  
 }
 .souvenirs{
-	width: 252px;
-	text-align: center;
-	margin-top:60px;
-	margin-bottom:60px;
+	width: 300px;
+  text-align: center;
+  margin-top: 60px;
+  padding-left: 30px;
 }
 .section-sight-town{
 	display: flex;
 	flex-wrap: wrap;
-	background:#f2f2f2;    
-	
+	background:#eeeeee; 
+	height:512px;   	
 }
 .image-canyon{
-	float:left;
 	width:800px;
 	height:257px
 }
 .section-bridge{
-	float:right;
 	text-align:center;
 	height:257px;
 	width:400px;
@@ -176,12 +170,11 @@ body{
 	box-sizing:border-box;
 }
 .area{
-	float:left;
 	width: 216px;
 	text-align:center;
 	margin-top: 36px;
 	margin-bottom: 60px;
-	margin-left:90px;
+	margin-left:85px;
 	text-transform: uppercase;
 }
 .area h3{
@@ -189,10 +182,9 @@ body{
 	text-transform: uppercase;
 }
 .beautiful-road{
-	float:left;
 	width: 217px;
 	text-align:center;
-	margin:36px 149px 40px 191px;
+	margin:36px 167px 40px 179px;
 	text-transform: uppercase;
 }
 .beautiful-road h3{
@@ -200,12 +192,10 @@ body{
 	text-transform: uppercase;
 }
 .tour{
-	float:left;
-	width:270px;
+	width:280px;
 	text-align:center;
 	margin-top: 38px;
 	margin-bottom: 60px;
-	margin-right:48px;
 	text-transform: uppercase;    
 }
 .tour h3{
@@ -218,8 +208,8 @@ body{
 	font-size: 21px;
 	text-transform: uppercase;
 	font-weight: bold;
-	margin-top: 50px;
-	margin-bottom: 40px;
+	margin-top: 60px;
+	margin-bottom: 38px;
 }
 .info{
 	clear:both;
@@ -235,12 +225,6 @@ body{
 }
 .map{
 	position:relative;
-	width:1200px;
-}
-.search-form{
-	position:relative;
-	width:1200px;
-	margin:0 auto;    
 }
 .main-footer{
 	width: 1200px;
@@ -286,7 +270,7 @@ body{
 	height: 480px;
 	z-index: 10;
 	background:#FFFFFF;
-	top: -85px;
+	top: -80px;
 	left: 320px;
 }
 /*ИКОНКА КАЛЕНДАРЯ*/
@@ -299,7 +283,7 @@ body{
   display: block;
   position: absolute;
   top: 7px;
-  right: 25px;
+  right: 16px;
 }
 .booking-form label span{
 	display: inline-block;
@@ -575,6 +559,8 @@ a.selected{
 	height: 235px;
 	padding: 30px 70px;
 	box-sizing: border-box;
+	margin: 0 auto;
+	box-shadow: 10px 0 10px 0 rgba(181, 173, 173, 0.5),-10px 0 10px 0 rgba(181, 173, 173, 0.5); 
 }
 .filter{
 	display: flex;
@@ -636,9 +622,6 @@ a.selected{
 }
 .sorting{
 	display: flex;
-	width: 1200px;
-	height: 88px;
-	margin: 0 auto;
 	margin-top: 10px;
 	background: #ffffff;
 	border-bottom:1px solid #cccccc;
@@ -674,11 +657,9 @@ a.selected{
 .apartments .hotels-img{
 	width: 150px;
 }
-.apartments .hotels-block{
-	width: 100%;
-	margin-left: -150px;
-	box-sizing: border-box;
-	padding-left: 160px;
+.stars-hotel{
+	position: absolute;
+  right: 143px;
 }
 .hotel-header{
 	display: flex;   
