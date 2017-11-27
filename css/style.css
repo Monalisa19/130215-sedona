@@ -104,9 +104,9 @@ body{
 	margin: 0 auto;
 	text-align: center;
 	background: #FFFFFF;
-	height: 150px;
 	padding-top: 27px;
 	margin-top: 16px;
+  margin-bottom: 60px;
 }
 .about h1{
 	text-transform: uppercase;
@@ -131,10 +131,9 @@ body{
 .section-real-town{
 	text-align: center;
 	color: #FFFFFF;
-	height: 257px;
 	width: 400px;
 	background: #81b3d2;    
-	padding: 46px;
+	padding: 39px;
 	box-sizing: border-box;
 }
 .section-header{
@@ -203,11 +202,10 @@ body{
 }
 .section-bridge{
 	text-align: center;
-	height: 257px;
 	width: 400px;
 	background: #81b3d2;
 	color: #FFFFFF;
-	padding: 45px;
+	padding: 38px;
 	box-sizing: border-box;
 }
 .area{
@@ -266,6 +264,9 @@ body{
 }
 .map{
 	position: relative;
+  width: 1200px;
+  height: 590px;
+  background: url(../img/map.jpg);
 }
 .main-footer{
 	width: 1200px;
@@ -288,6 +289,7 @@ body{
   font-size: 21px;
   text-transform: uppercase;
   text-align: center;
+  cursor: pointer;
 } 
 .date{
 	position: relative;
@@ -325,8 +327,8 @@ body{
 .input-icon-calendar:hover{
   background: url(../img/calendar_hover.svg) no-repeat center;
 }
-.input-icon-calendar:focus{
-  background: url(../img/calendar_focus.svg) no-repeat center;
+.input-icon-calendar:active{
+  background: url(../img/calendar_focus.svg); 
 }
 .booking-form label span{
 	display: inline-block;
