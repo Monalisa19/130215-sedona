@@ -209,21 +209,33 @@ body{
 	box-sizing: border-box;
 }
 .area{
-	width: 216px;
-	text-align: center;
-	margin-top: 36px;
-	margin-bottom: 60px;
-	margin-left: 85px;
-	text-transform: uppercase;
+  width: 23%;
+  text-align: center;
+  padding-top: 22px;
+  padding-bottom: 35px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  margin-left: 43px;
+  margin-right: 58px;
+  text-transform: uppercase;
 }
 .area h3{
 	font-size: 21px;
 	text-transform: uppercase;
 }
 .beautiful-road{
-	width: 217px;
-	text-align: center;
-	margin: 36px 167px 40px 179px;
+  width: 23%;
+  text-align: center;
+  padding-top: 22px;
+  padding-bottom: 35px;
+  padding-left: 10px;
+  padding-right: 38px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  margin-left: 55px;
+  margin-right: 43px;
 	text-transform: uppercase;
 }
 .beautiful-road h3{
@@ -231,10 +243,16 @@ body{
 	text-transform: uppercase;
 }
 .tour{
-	width: 280px;
-	text-align: center;
-	margin-top: 38px;
-	margin-bottom: 60px;
+  width: 25%;
+  text-align: center;
+  padding-top: 22px;
+  padding-bottom: 35px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  margin-left: 21px;
+  margin-right: 39px;
 	text-transform: uppercase;    
 }
 .tour h3{
@@ -264,9 +282,6 @@ body{
 }
 .map{
 	position: relative;
-  width: 1200px;
-  height: 590px;
-  background: url(../img/map.jpg);
 }
 .main-footer{
 	width: 1200px;
@@ -380,6 +395,7 @@ input.number-persons{
   box-sizing: border-box;
   padding: 0 7px;
   text-align: center;
+  cursor: pointer;
 }
 label.booking-form-search1{
   margin-top: 10px;
@@ -419,8 +435,21 @@ label.booking-form-search2{
   font-size: 14px;
   display: inline-block;
   vertical-align: middle;
+  cursor: pointer;
 }
-.hotel-btn{
+.hotel-grown button:hover{
+  color:#000000;
+}
+.hotel-grown button:active{
+  color:#81b3d2; 
+}
+.hotel-children button:hover{
+  color:#000000;
+}
+.hotel-children button:active{
+  color:#81b3d2; 
+}
+button.hotel-btn{
   width: 463px;
   background-color: #81b3d2;
   border: none;
@@ -860,13 +889,6 @@ a.selected{
 	background: #503E33;
 	color: #928A85;
 }
-button:hover{
-	background: #669EC0;
-}
-button:active{
-	background:#5496BD; 
-	color:#94B9D2;
-}
 .social-btn:hover{
 	background:#669EC0; 
 }
@@ -875,7 +897,7 @@ button:active{
 	color:#88b6d1;
 }
 .btn img:hover{
-   background-image:#87B7D4;
+  background-image:#87B7D4;
 }
 .form-group input:hover{
 	background:#EBEBEB;
