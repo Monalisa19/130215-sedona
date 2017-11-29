@@ -168,26 +168,26 @@ body{
 }
 .motel{
 	text-align: center;
-  width: 38%;
-  margin-top: 60px;
-  margin-bottom: 60px;
+  width: 33%;
+  padding-top: 50px;
+  padding-bottom: 50px;
   padding-right: 35px;
   padding-left: 37px;
 	
 }
 .food{
   text-align: center;
-  width: 38%;
-  margin-top: 60px;
-  margin-bottom: 60px;
+  width: 33%;
+  padding-top: 50px;
+  padding-bottom: 50px; 
   padding-right: 35px;
   padding-left: 37px; 
 }
 .souvenirs{
   text-align: center;
-  width: 38%;
-  margin-top: 60px;
-  margin-bottom: 60px;
+  width: 33%;
+  padding-top: 50px;
+  padding-bottom: 50px;
   padding-right: 35px;
   padding-left: 37px;
 }
@@ -209,55 +209,66 @@ body{
 	box-sizing: border-box;
 }
 .area{
-  width: 23%;
+  width: 33%;
   text-align: center;
-  padding-top: 22px;
-  padding-bottom: 35px;
-  padding-left: 10px;
-  padding-right: 10px;
-  margin-top: 16px;
-  margin-bottom: 16px;
-  margin-left: 43px;
-  margin-right: 58px;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  padding-left: 2px;
+  padding-right: 2px;
   text-transform: uppercase;
 }
 .area h3{
 	font-size: 21px;
 	text-transform: uppercase;
+  padding-left: 106px;
+  padding-right: 109px;
+}
+.area p{
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-left: 55px;
+  padding-right: 55px;
+  line-height: 1.5;
 }
 .beautiful-road{
-  width: 23%;
+  width: 33%;
   text-align: center;
-  padding-top: 22px;
-  padding-bottom: 35px;
-  padding-left: 10px;
-  padding-right: 38px;
-  margin-top: 16px;
-  margin-bottom: 16px;
-  margin-left: 55px;
-  margin-right: 43px;
-	text-transform: uppercase;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  padding-left: 2px;
+  padding-right: 2px;
+  text-transform: uppercase;
 }
 .beautiful-road h3{
 	font-size: 21px;
 	text-transform: uppercase;
 }
+.beautiful-road p{
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-left: 65px;
+  padding-right: 65px;
+  line-height: 1.5;
+}
 .tour{
-  width: 25%;
+  width: 33%;
   text-align: center;
-  padding-top: 22px;
-  padding-bottom: 35px;
-  padding-left: 10px;
-  padding-right: 10px;
-  margin-top: 16px;
-  margin-bottom: 16px;
-  margin-left: 21px;
-  margin-right: 39px;
-	text-transform: uppercase;    
+  padding-top: 45px;
+  padding-bottom: 45px;
+  padding-left: 2px;
+  padding-right: 2px;
+  text-transform: uppercase;   
 }
 .tour h3{
 	font-size: 21px;
 	text-transform: uppercase;
+}
+.tour p{
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-left: 55px;
+  padding-right: 55px;
+  line-height: 1.5;
 }
 .interested{
 	width: 400px;
@@ -279,6 +290,7 @@ body{
 .info p{
 	margin-top: 40px;
 	text-transform: uppercase;
+  line-height: 1.5;
 }
 .map{
 	position: relative;
@@ -459,6 +471,7 @@ button.hotel-btn{
   font-family: "PT Sans", sans-serif;
   font-weight: bold;
   font-size: 21px;
+  text-transform: uppercase;
   color: #fff;
   padding: 20px;
   cursor: pointer;

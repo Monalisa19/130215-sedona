@@ -81,7 +81,7 @@
     <p class="section-description">да, по нему можно пройти! если конечно вы осмелитесь</p>
   </div>    
   <div class="area">
-    <h3>небольшая<br>площадь</h3>
+    <h3>небольшая площадь</h3>
       <p>-№3-</p>
       <p>все достопримечательности находятся очень близко</p>
   </div>
@@ -108,33 +108,33 @@
     <form action="https://echo.htmlacademy.ru" method="post">
       <div class="form-group group-inter">
         <p class="date">
-        <label>дата заезда:</label>
-        <input type="text" name="datefrom" value="" class="input-group" placeholder="21.11.2017"> 
+        <label for="arrival-date">дата заезда:</label>
+        <input type="text" name="datefrom" value="" id="arrival-date" class="input-group" placeholder="21.11.2017"> 
         <span class="input-icon-calendar"></span> 
         </p>
       </div>
       <div class="form-group group-exit">
         <p class="date">
-          <label>дата выезда:</label>
-            <input type="text" name="dateexit" value=""  class="input-group" placeholder="21.11.2017">
+          <label for="date-departure">дата выезда:</label>
+            <input type="text" name="dateexit" value="" id="date-departure" class="input-group" placeholder="21.11.2017">
             <span class="input-icon-calendar"></span>
         </p>  
       </div>
       <div class="group-of-people">
-        <label class="booking-form-search1">взрослые:</label>
+        <label class="booking-form-search1" for="adults">взрослые:</label>
         <div class="hotel-grown">
           <button type="button">−</button>
-          <input  type="text" value="" placeholder="1">
+          <input  type="text" value="" id="adults" placeholder="1">
           <button type="button">+</button> 
         </div>
-        <label class="booking-form-search2">дети:</label>
+        <label class="booking-form-search2" for="children">дети:</label>
         <div class="hotel-children">  
           <button type="button">−</button>
-          <input   type="text" value="" placeholder="1">
+          <input   type="text" value=""  id="children" placeholder="1">
           <button type="button">+</button>
         </div>
       </div>
-      <button type="button" class="hotel-btn">найти</button>
+      <button type="submit" class="hotel-btn">найти</button>
   </div> 
     </form>    
       </div>
