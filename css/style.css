@@ -166,7 +166,7 @@ body{
 	font-size: 14px;
 	text-transform: uppercase;
 }
-.motel{
+.element-infrastructure{
 	text-align: center;
   width: 33%;
   padding-top: 50px;
@@ -174,22 +174,6 @@ body{
   padding-right: 35px;
   padding-left: 37px;
 	
-}
-.food{
-  text-align: center;
-  width: 33%;
-  padding-top: 50px;
-  padding-bottom: 50px; 
-  padding-right: 35px;
-  padding-left: 37px; 
-}
-.souvenirs{
-  text-align: center;
-  width: 33%;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  padding-right: 35px;
-  padding-left: 37px;
 }
 .section-sight-town{
 	display: flex;
@@ -208,7 +192,7 @@ body{
 	padding: 38px;
 	box-sizing: border-box;
 }
-.area{
+.city-attractions{
   width: 33%;
   text-align: center;
   padding-top: 45px;
@@ -217,53 +201,13 @@ body{
   padding-right: 2px;
   text-transform: uppercase;
 }
-.area h3{
+.city-attractions h3{
 	font-size: 21px;
 	text-transform: uppercase;
   padding-left: 106px;
   padding-right: 109px;
 }
-.area p{
-  font-size: 14px;
-  text-transform: uppercase;
-  padding-left: 55px;
-  padding-right: 55px;
-  line-height: 1.5;
-}
-.beautiful-road{
-  width: 33%;
-  text-align: center;
-  padding-top: 45px;
-  padding-bottom: 45px;
-  padding-left: 2px;
-  padding-right: 2px;
-  text-transform: uppercase;
-}
-.beautiful-road h3{
-	font-size: 21px;
-	text-transform: uppercase;
-}
-.beautiful-road p{
-  font-size: 14px;
-  text-transform: uppercase;
-  padding-left: 65px;
-  padding-right: 65px;
-  line-height: 1.5;
-}
-.tour{
-  width: 33%;
-  text-align: center;
-  padding-top: 45px;
-  padding-bottom: 45px;
-  padding-left: 2px;
-  padding-right: 2px;
-  text-transform: uppercase;   
-}
-.tour h3{
-	font-size: 21px;
-	text-transform: uppercase;
-}
-.tour p{
+.city-attractions p{
   font-size: 14px;
   text-transform: uppercase;
   padding-left: 55px;
@@ -503,9 +447,7 @@ button.hotel-btn{
 	width: 400px;
   padding-top: 30px;
 }	
-.footer-social{
-	width: 400px;  
-}
+
 .footer-copyright{
 	width: 400px;
 }
@@ -578,23 +520,37 @@ a.selected{
 	color: #81b3d2;
 	text-decoration:none;
 }
+.footer-social{
+  display: flex;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  margin: auto;
+}
 .footer-social a{
 	text-decoration:none;
 }
-.social-btn-vk{
+.social-btn{
+  display: flex;
+  justify-content: space-around;
+  width: 60px;
+  height: 60px;
+  background-color: #618ad2;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-size: 0;
+} 
+.social-btn-tw{
 	background: #81B3D2;
-	padding: 18px;
+  margin-right: 5px;
 }
 .social-btn-fb{
 	background: #81B3D2;
-	padding: 18px;
-	margin-left: 6px;
-	margin-right: 2px;
+  margin-right: 5px;
 }
 .social-btn-you{
 	background: #81B3D2;
-	padding: 18px;
-	margin-left: 4px;
 }
 .filter-range{
 	width: 330px;
@@ -740,7 +696,7 @@ a.selected{
 }
 .switch-up{
 	margin-top: 41px;
-	margin-right: 15px;    
+	margin-right: 76px;    
 }
 .apartments{
 	display: flex;
@@ -832,10 +788,7 @@ a.selected{
 	width: 400px;
 	margin-top: 36px;
 }
-.footer-social{
-	width: 400px;
-	margin-top: 45px;
-}
+
 .footer-copyright{
   display: flex;
 }
@@ -855,7 +808,7 @@ a.selected{
 	height: 10px;
 	margin-right: 7px;
 	margin-top: 41px;
-	margin-left: 491px;
+	margin-left: auto;
 }
 .switch-up{
 	background: url("../img/icons_up_grey.svg");
