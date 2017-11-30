@@ -21,18 +21,15 @@ body{
   -webkit-box-shadow: 0 7px 15px 0 rgba(0, 1, 1, 0.15);
   box-shadow: 0 7px 15px 0 rgba(0, 1, 1, 0.15);
 }
-
 .section-container {
   padding: 0 6%;
 }
-
 .main-navigation {
   position: relative;
   font-size: 14px;
   line-height: 26px;
   font-weight: 700;
 }
-
 .main-header-logo {
   position: absolute;
   top: 0;
@@ -43,7 +40,6 @@ body{
   padding: 0;
   z-index: 1;
 }
-
 .site-navigation {
   position: relative;
   display: flex;
@@ -71,20 +67,16 @@ body{
   width: 20%;
   margin: 14px 0 15px;
 }
-
 .site-navigation-link-left {
   text-align: left;
 }
-
 .site-navigation-link-right {
   text-align: right;
 }
-
 .site-navigation li:nth-child(2) {
   padding-left: 30px;
   margin-right: auto;
 }
-
 .site-navigation li:nth-child(3) {
   padding-right: 34px;
 }
@@ -173,7 +165,6 @@ body{
   padding-bottom: 50px;
   padding-right: 35px;
   padding-left: 37px;
-	
 }
 .section-sight-town{
 	display: flex;
@@ -246,7 +237,6 @@ body{
 	height: 120px;
 	background: rgba(255,255,255,0.9);
 }
-
 /*Форма поиска*/
 .booking-form-content{
 	padding: 45px;
@@ -283,7 +273,6 @@ body{
 	top: -80px;
 	left: 320px;
 }
-
 /*ИКОНКА КАЛЕНДАРЯ*/
 .input-icon-calendar{
 	background: url(../img/calendar.svg) no-repeat center;
@@ -369,7 +358,6 @@ label.booking-form-search2{
   font-weight: bold;
   text-transform: uppercase;
 }
-
 .hotel-children{
   font-size: 0;
 }
@@ -420,19 +408,15 @@ button.hotel-btn{
   padding: 20px;
   cursor: pointer;
 }
-
 .hotel-btn:hover{
   background-color: #669ec0;
 }
-
 .hotel-btn:active{
   background-color: #5496bd;
   color: rgba(255, 255, 255, 0.9);
 }
 
-
 /*Подвал*/
-
 .footer-content{
 	display: flex;
 	text-align:center;
@@ -447,7 +431,6 @@ button.hotel-btn{
 	width: 400px;
   padding-top: 30px;
 }	
-
 .footer-copyright{
 	width: 400px;
 }
@@ -788,7 +771,6 @@ a.selected{
 	width: 400px;
 	margin-top: 36px;
 }
-
 .footer-copyright{
   display: flex;
 }
