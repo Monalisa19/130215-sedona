@@ -1,19 +1,23 @@
-body, html{margin:0; padding:0}
+body, 
+html{
+  margin:0; 
+  padding:0;
+  background-color: #f2f2f2;
+}
 
+    
 body{
 	font-size: 14px;
 	font-family:"PT Sans", "Arial", sans-serif;
-	box-shadow: 10px 0 10px 0 rgba(181, 173, 173, 0.5),-10px 0 10px 0 rgba(181, 173, 173, 0.5); 
 }
 
 .wrapper{
 	background: #FFFFFF;
 	width: 1200px;
 	margin: 0 auto;
-	box-shadow: 10px 0 10px 0 rgba(181, 173, 173, 0.5),-10px 0 10px 0 rgba(181, 173, 173, 0.5); 
-	   
+	box-shadow: 10px 0 10px 0 rgba(181, 173, 173, 0.5),-10px 0 10px 0 rgba(181, 173, 173, 0.5); 	   
 }
-.container {
+.container{
   position: relative;
   width: 1200px;
   margin: 0 auto;
@@ -21,16 +25,16 @@ body{
   -webkit-box-shadow: 0 7px 15px 0 rgba(0, 1, 1, 0.15);
   box-shadow: 0 7px 15px 0 rgba(0, 1, 1, 0.15);
 }
-.section-container {
+.section-container{
   padding: 0 6%;
 }
-.main-navigation {
+.main-navigation{
   position: relative;
   font-size: 14px;
   line-height: 26px;
   font-weight: 700;
 }
-.main-header-logo {
+.main-header-logo{
   position: absolute;
   top: 0;
   left: 50%;
@@ -40,7 +44,7 @@ body{
   padding: 0;
   z-index: 1;
 }
-.site-navigation {
+.site-navigation{
   position: relative;
   display: flex;
   -ms-flex-wrap: wrap;
@@ -60,24 +64,24 @@ body{
 .site-navigation a:active{
   color: #b7b7b7;
 }
-.site-navigation li {
+.site-navigation li{
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   display: block;
   width: 20%;
   margin: 14px 0 15px;
 }
-.site-navigation-link-left {
+.site-navigation-link-left{
   text-align: left;
 }
-.site-navigation-link-right {
+.site-navigation-link-right{
   text-align: right;
 }
-.site-navigation li:nth-child(2) {
+.site-navigation li:nth-child(2){
   padding-left: 30px;
   margin-right: auto;
 }
-.site-navigation li:nth-child(3) {
+.site-navigation li:nth-child(3){
   padding-right: 34px;
 }
 .background-block{
@@ -331,7 +335,7 @@ input.number-persons{
   height: 38px;
   border: none;
   background-color: #f2f2f2;
-  font-family: "PT Sans", sans-serif;
+  font-family: "PT Sans","Arial", sans-serif;
   font-weight: bold;
   font-size: 14px;
   text-transform: uppercase;
@@ -366,15 +370,12 @@ label.booking-form-search2{
 }
 .hotel-grown button,
 .hotel-children button{
-  font-family: "PT Sans", sans-serif;
+  font-family: "PT Sans","Arial", sans-serif;
   width: 38px;
-  font-size: 21px;
-  font-weight: 700;
   color: #a9a9a9;
   height: 38px;
   border: none;
   background-color: #f2f2f2;
-  font-family: "PT Sans", sans-serif;
   font-weight: bold;
   font-size: 14px;
   display: inline-block;
@@ -400,7 +401,7 @@ button.hotel-btn{
   margin-top: 54px;
   margin-left: 10px;
   margin-right:10px;
-  font-family: "PT Sans", sans-serif;
+  font-family: "PT Sans","Arial", sans-serif;
   font-weight: bold;
   font-size: 21px;
   text-transform: uppercase;
@@ -474,7 +475,7 @@ a.selected{
 	display: inline-block;
 }
 .filter-item .checkbox-custom:before{
-	background: url(../img/checkbox-off.svg) no-repeat;
+	background: url("../img/checkbox-off.svg") no-repeat;
 	width: 27px;
 	height: 23px;
 	display: inline-block;
@@ -482,7 +483,7 @@ a.selected{
 	background-size: contain;
 }
 .filter-item input:checked+.checkbox-custom:before{
-	background: url(../img/checkbox-on.svg) no-repeat;
+	background: url("../img/checkbox-on.svg") no-repeat;
 	width: 27px;
 	height: 23px;
 	display: inline-block;
@@ -495,7 +496,7 @@ a.selected{
 	text-decoration: underline;
 	color: #c4c1c1;
 }
-.for-type {
+.for-type{
 	padding-left: 12px;
 	margin-top: 30px;
 }
@@ -524,6 +525,12 @@ a.selected{
   background-repeat: no-repeat;
   font-size: 0;
 } 
+.social-btn img{
+  width: 20px;
+  height: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 .social-btn-tw{
 	background: #81B3D2;
   margin-right: 5px;
@@ -568,12 +575,12 @@ a.selected{
 .price-controls label{
 	display: inline-block;
 	font-size: 14px;
-	line-height: 38px;
+	line-height: 28px;
 	vertical-align: top;
 	cursor: pointer;
 }
 .price-controls .min-price,
-.price-controls .max-price {
+.price-controls .max-price{
 	width: 90px;
 	padding-left: 65px;
 }
@@ -845,7 +852,7 @@ a.selected{
 	color:#88b6d1;
 }
 .btn img:hover{
-  background-image:#87B7D4;
+  background:#87B7D4;
 }
 .form-group input:hover{
 	background:#EBEBEB;
