@@ -284,6 +284,8 @@ body {
 }
 
 .main-footer {
+  position: relative;
+  bottom: 123px;
   width: 1200px;
   margin: 0 auto;
   background: rgba(255, 255, 255, 0.9);
@@ -511,6 +513,7 @@ button.hotel-btn {
   margin: 0 auto;
   min-height: 217px;
   margin-top: -10px;
+  margin-bottom: 122px;
   box-shadow: 10px 0 10px 0 rgba(181, 173, 173, 0.5), -10px 0 10px 0 rgba(181, 173, 173, 0.5);
 }
 
@@ -529,44 +532,48 @@ a.selected {
   margin-right: 240px;
 }
 
-.filter .filter-name {
-  margin-bottom: 27px;
-}
-
-.filter-object-type .filter-item {
-  margin-bottom: 22px;
-  display: block;
-}
-
-.filter-infrastructure .filter-item {
-  margin-bottom: 22px;
-  display: block;
-}
-
-.filter-item input {
+.checkbox-custom {
   display: none;
 }
 
-.filter-item span {
-  display: inline-block;
+.filter-item {
+  display: block;
+  margin-bottom: 31px;
+  padding-left: 41px;
+  position: relative;
+  width: 100px;
 }
 
-.filter-item .checkbox-custom:before {
-  background: url("../img/checkbox-off.svg") no-repeat;
-  width: 27px;
-  height: 23px;
-  display: inline-block;
+.filter-on:before {
+  position: absolute;
   content: "";
-  background-size: contain;
-}
-
-.filter-item input:checked + .checkbox-custom:before {
   background: url("../img/checkbox-on.svg") no-repeat;
   width: 27px;
   height: 23px;
+  left: 0;
+  top: 0;
   display: inline-block;
-  content: "";
   background-size: contain;
+}
+
+.filter-off:before {
+  position: absolute;
+  content: "";
+  background: url("../img/checkbox-off.svg") no-repeat;
+  width: 27px;
+  height: 23px;
+  left: 0;
+  top: 0;
+  display: inline-block;
+  background-size: contain;
+}
+
+.checkbox-custom:checked + .filter-item:before {
+  display: block;
+}
+
+.filter .filter-name {
+  margin-bottom: 27px;
 }
 
 .for-type a {
@@ -934,7 +941,7 @@ a.selected {
 }
 
 .switch-down {
-  background: url("../img/icons_down_grey.svg");
+  background: url("../img/icons_blue_down.svg");
   width: 11px;
   height: 10px;
   margin-right: 73px;
