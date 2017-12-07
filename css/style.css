@@ -289,6 +289,7 @@ body {
   width: 1200px;
   margin: 0 auto;
   background: rgba(255, 255, 255, 0.9);
+  box-shadow: 10px 0 10px 0 rgba(181, 173, 173, 0.5),-10px 0 10px 0 rgba(181, 173, 173, 0.5);
 }
 
 /*Форма поиска*/
@@ -303,6 +304,7 @@ body {
   border: none;
   color: #ffffff;
   font-size: 19px;
+  font-weight: 700;
   text-transform: uppercase;
   text-align: center;
   cursor: pointer;
@@ -362,6 +364,7 @@ body {
 
 input.input-group {
   font-weight: bold;
+  text-transform: uppercase;
   width: 331px;
   height: 35px;
   border: none;
@@ -439,7 +442,7 @@ input.number-persons {
   border: none;
   background-color: #f2f2f2;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 21px;
   display: inline-block;
   vertical-align: middle;
   cursor: pointer;
@@ -513,8 +516,9 @@ button.hotel-btn {
   margin: 0 auto;
   min-height: 217px;
   margin-top: -10px;
-  margin-bottom: 122px;
-  box-shadow: 10px 0 10px 0 rgba(181, 173, 173, 0.5), -10px 0 10px 0 rgba(181, 173, 173, 0.5);
+  margin-bottom: 123px;
+  border-bottom: 1px solid #cccccc;
+  box-shadow: 10px 0 10px 0 rgba(181, 173, 173, 0.5),-10px 0 10px 0 rgba(181, 173, 173, 0.5);
 }
 
 a.selected {
@@ -572,8 +576,29 @@ a.selected {
   display: block;
 }
 
+.checkbox-custom:checked + .filter-item:before{
+  position: absolute;
+  width: 27px;
+  height: 23px;
+  left:0
+  top:0;
+  background: url("../img/checkbox-on.svg") no-repeat;
+  cursor: pointer;
+}
+/*
+.checkbox-custom:checked + .filter-item:before {
+  position: absolute;
+  width: 27px;
+  height: 23px;
+  left:0
+  top:0;  
+  background: url("../img/checkbox-off.svg") no-repeat;
+  cursor: pointer; 
+ }
+*/
 .filter .filter-name {
   margin-bottom: 27px;
+
 }
 
 .for-type a {
@@ -786,9 +811,9 @@ a.selected {
 .sorting li {
   display: inline;
   padding: 0;
-  font-size: 14px;
+  font-size: 15px;
   list-style: none;
-  margin-right: 32px;
+  margin-right: 28px;
 }
 
 .name-hotels {
@@ -914,11 +939,11 @@ a.selected {
 .stars-two {
   margin-left: 73px;
 }
-
+/*
 .main-footer {
   box-shadow: 10px 0 10px 0 rgba(181, 173, 173, 0.5), -10px 0 10px 0 rgba(181, 173, 173, 0.5);
 }
-
+*/
 .footer-contacts {
   width: 400px;
   margin-top: 36px;
