@@ -1,5 +1,6 @@
 body,
 html {
+  position: relative;
   margin: 0 auto;
   padding: 0;
   background-color: #f2f2f2;
@@ -284,12 +285,21 @@ body {
 }
 
 .main-footer {
-  position: relative;
-  bottom: 123px;
+  position: absolute;
+  bottom: 0;
+  width: 1200px;
+  margin: 0 auto;
+  left: 75px;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 10px 0 10px 0 rgba(181, 173, 173, 0.5), -10px 0 10px 0 rgba(181, 173, 173, 0.5);
+}
+
+.main-footer-catalog {
+  bottom: 0;
   width: 1200px;
   margin: 0 auto;
   background: rgba(255, 255, 255, 0.9);
-  box-shadow: 10px 0 10px 0 rgba(181, 173, 173, 0.5),-10px 0 10px 0 rgba(181, 173, 173, 0.5);
+  box-shadow: 10px 0 10px 0 rgba(181, 173, 173, 0.5), -10px 0 10px 0 rgba(181, 173, 173, 0.5);
 }
 
 /*Форма поиска*/
@@ -339,7 +349,7 @@ body {
   display: block;
   position: absolute;
   top: 7px;
-  left:426px;
+  left: 426px;
 }
 
 .input-icon-calendar:hover {
@@ -491,7 +501,6 @@ button.hotel-btn {
 .footer-content {
   display: flex;
   text-align: center;
-  height: 123px;
   text-transform: uppercase;
 }
 
@@ -516,9 +525,8 @@ button.hotel-btn {
   margin: 0 auto;
   min-height: 217px;
   margin-top: -10px;
-  margin-bottom: 123px;
-  border-bottom: 1px solid #cccccc;
-  box-shadow: 10px 0 10px 0 rgba(181, 173, 173, 0.5),-10px 0 10px 0 rgba(181, 173, 173, 0.5);
+  margin-bottom: 0px;
+  box-shadow: 10px 0 10px 0 rgba(181, 173, 173, 0.5), -10px 0 10px 0 rgba(181, 173, 173, 0.5);
 }
 
 a.selected {
@@ -559,9 +567,11 @@ input[type="checkbox"] + span {
   height: 23px;
   display: block;
 }
+
 .checkbox-custom[type="checkbox"]:checked + span {
   background: url("../img/checkbox-off.svg") no-repeat;
 }
+
 .filter .filter-name {
   margin-bottom: 27px;
 }
@@ -832,7 +842,7 @@ input[type="checkbox"] + span {
 }
 
 .hotel-info {
-display: flex;
+  display: flex;
 }
 
 .hotel-bottom {
