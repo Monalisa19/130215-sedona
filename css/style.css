@@ -867,13 +867,16 @@ input[type="checkbox"] + span {
 }
 
 .hotel-header
-.hotel-info
 .hotel-bottom {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-
+.hotel-info{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
 .hotel-name {
   margin-top: 6px;
   font-weight: bold;
