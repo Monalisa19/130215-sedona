@@ -150,6 +150,7 @@ body {
   width: 400px;
   background: #81b3d2;
   padding: 30px;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -228,6 +229,7 @@ body {
   background: #81b3d2;
   color: #FFFFFF;
   padding: 31px;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -293,13 +295,8 @@ body {
   background: rgba(255, 255, 255, 0.9);
   box-shadow: 10px 0 10px 0 rgba(181, 173, 173, 0.5), -10px 0 10px 0 rgba(181, 173, 173, 0.5);
 }
-
-.main-footer-catalog {
-  bottom: 0;
-  width: 1200px;
-  margin: 0 auto;
-  background: rgba(255, 255, 255, 0.9);
-  box-shadow: 10px 0 10px 0 rgba(181, 173, 173, 0.5), -10px 0 10px 0 rgba(181, 173, 173, 0.5);
+.footer-catalog{
+  position: static;
 }
 
 /*Форма поиска*/
@@ -399,6 +396,7 @@ input.number-persons {
   align-items: center;
   height: 40px;
   width: 458px;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -414,6 +412,7 @@ input.number-persons {
   text-transform: uppercase;
   display: inline-block;
   vertical-align: middle;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   padding: 0 7px;
   text-align: center;
@@ -701,6 +700,7 @@ input[type="checkbox"] + span {
   width: 1200px;
   height: 220px;
   padding: 30px 70px;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   margin: 0 auto;
   box-shadow: 10px 0 10px 0 rgba(181, 173, 173, 0.5), -10px 0 10px 0 rgba(181, 173, 173, 0.5);
@@ -977,6 +977,7 @@ input[type="checkbox"] + span {
 
 .logo-academy a {
   display: inline-block;
+  vertical-align: top;
   width: 113px;
   height: 39px;
   background: url("../img/logo-htmlacademy.svg");
