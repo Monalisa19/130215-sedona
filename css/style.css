@@ -1,6 +1,5 @@
 body,
 html {
-  position: relative;
   margin: 0 auto;
   padding: 0;
   background-color: #f2f2f2;
@@ -12,6 +11,7 @@ body {
 }
 
 .wrapper {
+  position: relative;
   background: #FFFFFF;
   width: 1200px;
   margin: 0 auto;
@@ -301,18 +301,16 @@ body {
 
 .main-footer {
   position: absolute;
-  bottom: 0;
+  bottom: -2150px;
+  left: 75px;
   width: 1200px;
   margin: 0 auto;
-  left: 75px;
   background: rgba(255, 255, 255, 0.9);
-
 }
 
 .footer-catalog {
   position: static;
-  -webkit-box-shadow: 10px 0 10px 0 rgba(181, 173, 173, 0.5), -10px 0 10px 0 rgba(181, 173, 173, 0.5);
-  box-shadow: 10px 0 10px 0 rgba(181, 173, 173, 0.5), -10px 0 10px 0 rgba(181, 173, 173, 0.5);
+
 }
 
 /*Форма поиска*/
@@ -527,6 +525,9 @@ button.hotel-btn {
   display: flex;
   text-align: center;
   text-transform: uppercase;
+  -webkit-box-shadow: 10px 0 10px 0 rgba(181, 173, 173, 0.5), -10px 0 10px 0 rgba(181, 173, 173, 0.5);
+  box-shadow: 10px 0 10px 0 rgba(181, 173, 173, 0.5), -10px 0 10px 0 rgba(181, 173, 173, 0.5);
+
 }
 
 .footer-visit p {
@@ -867,13 +868,14 @@ input[type="checkbox"] + span {
   margin-left: auto;
 }
 
-.hotel-header{
+.hotel-header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-top: 5px;
   margin-bottom: -3px;
 }
+
 .hotel-bottom,
 .hotel-info {
   display: -webkit-box;
