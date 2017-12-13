@@ -292,7 +292,7 @@ body {
   text-transform: uppercase;
   font-weight: bold;
   margin-top: 48px;
-  margin-bottom: 27px;
+  margin-bottom: 33px;
 
 }
 
@@ -305,9 +305,9 @@ body {
 }
 
 .info p {
-  margin-top: 27px;
+  margin-top: 18px;
   text-transform: uppercase;
-  line-height: 1.5;
+  line-height: 0.5;
 }
 
 
@@ -335,7 +335,7 @@ body {
 
 .main-footer {
   position: relative;
-  bottom: 126px;
+  bottom: 140px;
   width: 1200px;
   margin: 0 auto;
   z-index: 1;
@@ -574,7 +574,7 @@ button.hotel-btn {
 
 .footer-visit {
   width: 400px;
-  padding-top: 30px;
+  padding-top: 25px;
 }
 
 .footer-copyright {
@@ -672,9 +672,9 @@ input[type="checkbox"] + span {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-left: 17px;
+  padding-left: 12px;
   padding-right: 18px;
-  padding-top: 38px;
+  padding-top: 36px;
   padding-bottom: 41px;
   margin: auto;
 }
@@ -1037,16 +1037,16 @@ input[type="checkbox"] + span {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-right: 9px;
-  margin-top: 52px;
-  margin-left: 102px;
+  margin-right: 6px;
+  margin-top: 50px;
+  margin-left: 99px;
 }
 
 .logo-academy {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 41px;
+  margin-top: 39px;
 }
 
 .switch-down {
