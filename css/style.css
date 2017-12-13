@@ -305,9 +305,9 @@ body {
 }
 
 .info p {
-  margin-top: 18px;
+  margin-top: -5px;
   text-transform: uppercase;
-  line-height: 0.5;
+  line-height: 1.5;
 }
 
 
@@ -335,7 +335,7 @@ body {
 
 .main-footer {
   position: relative;
-  bottom: 140px;
+  bottom: 143px;
   width: 1200px;
   margin: 0 auto;
   z-index: 1;
