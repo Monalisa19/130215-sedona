@@ -407,11 +407,7 @@ body {
   background: url("../img/calendar_focus.svg");
 }
 
-.booking-form span {
-  display: inline-block;
-  font-weight: bold;
-  text-transform: uppercase;
-}
+
 
 .booking-form .form-group {
   display: -webkit-box;
@@ -635,12 +631,6 @@ a.selected {
   top: 0;
 }
 
-input[type="checkbox"]:disabled + .filter-item:hover {
-  background: url("../img/checkbox-on_disabled.svg") no-repeat;
-  fill: #6a6a6a;
-}
-
-
 input[type="checkbox"] + span {
   background: url("../img/checkbox-on.svg") no-repeat;
   width: 27px;
@@ -652,7 +642,7 @@ input[type="checkbox"] + span {
   background: url("../img/checkbox-off.svg") no-repeat;
 }
 .filter-name {
-  font-size: 14px;
+  font-size: 17px;
   line-height: 1;
   font-weight: bold;
 }
@@ -869,6 +859,11 @@ input[type="checkbox"] + span {
   height: auto;
 }
 
+.btn-transparent:focus {
+  outline: -webkit-focus-ring-color auto 5px;
+
+} 
+
 .btn-transparent:hover {
   color: #000000;
   background: #ffffff;
@@ -890,7 +885,7 @@ input[type="checkbox"] + span {
   font-weight: 400;
   line-height: 18px;
   list-style: none;
-  margin-right: 33px;
+  margin-right: 32px;
   text-transform: uppercase;
 }
 
@@ -908,7 +903,7 @@ input[type="checkbox"] + span {
 
 .switch-up {
   font-size: 0;
-  margin-left: 465px;
+  margin-left: 469px;
   margin-top: 40px;
 }
 
@@ -923,8 +918,8 @@ input[type="checkbox"] + span {
 
 .apartments .hotels-img {
   width: 135px;
-  margin-right: 28px;
-  margin-top: 25px;
+  margin-right: 30px;
+  margin-top: 21px;
 }
 
 .stars-hotel {
@@ -935,8 +930,7 @@ input[type="checkbox"] + span {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 15px;
-  margin-bottom: -4px;
+  margin-top: 6px;
 }
 
 .hotel-bottom,
@@ -956,6 +950,7 @@ input[type="checkbox"] + span {
 .hotel-type {
   font-size: 14px;
   margin-right: 4px;
+  margin-top: 12px;
 }
 
 .btn-read {
@@ -990,20 +985,22 @@ input[type="checkbox"] + span {
 
 .motel-price {
   font-size: 14px;
+  margin-top: 10px;
   margin-left: 60px;
 }
 
 .apartments-price {
   font-size: 14px;
+  margin-top: 12px;
   margin-left: 17px;
 }
 
 .hotel-rating {
   margin-top: 49px;
-  padding-top: 5px;
+  padding-top: 4px;
   padding-left: 18px;
   padding-right: 8px;
-  padding-bottom: 2px;
+  padding-bottom: 10px;
   width: 85px;
   background: #f2f2f2;
   font-size: 14px;
@@ -1012,11 +1009,11 @@ input[type="checkbox"] + span {
 /*звезды отеля*/
 .stars-four {
   margin-left: 25px;
-  margin-top: 8px;
+  margin-top: 17px;
 }
 
 .stars-three {
-  margin-top: 6px;
+  margin-top: 12px;
   margin-left: 50px;
 }
 
@@ -1184,4 +1181,7 @@ input[type="checkbox"] + span {
   color: #000000;
 }
 
+.checkbox-custom[type="checkbox"]:disabled + span { 
+  background: url("../img/checkbox-on_disabled.svg") no-repeat;
+}
 
