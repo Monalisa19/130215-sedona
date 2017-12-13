@@ -355,7 +355,7 @@ body {
 .booking-form-header {
   font-family: "PT Sans", "Arial", sans-serif;
   width: 567px;
-  height: 81px;
+  height: 85px;
   background: #766357;
   border: none;
   color: #ffffff;
@@ -396,7 +396,7 @@ body {
   position: absolute;
   top: 6px;
   border: none;
-  left: 422px;
+  left: 424px;
 }
 
 .input-icon-calendar:hover {
